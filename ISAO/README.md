@@ -46,7 +46,7 @@ ETH_KEY=PRIVATE_KEY # private key of your ethereum account
 INFURA_TOKEN=TOKEN  # Infura API key
 ```
 
-4) Use `truffle migrate --reset --network rinkeby`  or  ``truffle.cmd migrate --reset --network rinkeby` on windows. It will deploy ISAO contract and related ERC20 token contract on rinkeby testnet. All the required parameters such as `RAISING_PERIOD ` and `MINIMAL_FUND_SIZE ` will be setup in the migration script  that you can find in `./migrations/2_isao_test.js` file.
+4) Use `truffle migrate --reset --network rinkeby`  or  `truffle.cmd migrate --reset --network rinkeby` on windows. It will deploy ISAO contract and related ERC20 token contract on rinkeby testnet. All the required parameters such as `RAISING_PERIOD ` and `MINIMAL_FUND_SIZE ` will be setup in the migration script  that you can find in `./migrations/2_isao_test.js` file.
 
 *Note: Deploy can take more than 0.5 ETH in the testnet, so be sure you have enough test ether on you account.*
 
